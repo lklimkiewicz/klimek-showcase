@@ -13,6 +13,14 @@
 		07EE76091CB36CD8003B7E8F /* klimek_showcase.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 07EE76071CB36CD8003B7E8F /* klimek_showcase.xcdatamodeld */; };
 		07EE760B1CB36CD8003B7E8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07EE760A1CB36CD8003B7E8F /* Assets.xcassets */; };
 		07EE760E1CB36CD8003B7E8F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07EE760C1CB36CD8003B7E8F /* LaunchScreen.storyboard */; };
+		07EE761D1CB36D3C003B7E8F /* NotoSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 07EE76191CB36D3C003B7E8F /* NotoSans-Bold.ttf */; };
+		07EE761E1CB36D3C003B7E8F /* NotoSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 07EE761A1CB36D3C003B7E8F /* NotoSans-BoldItalic.ttf */; };
+		07EE761F1CB36D3C003B7E8F /* NotoSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 07EE761B1CB36D3C003B7E8F /* NotoSans-Italic.ttf */; };
+		07EE76201CB36D3C003B7E8F /* NotoSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 07EE761C1CB36D3C003B7E8F /* NotoSans-Regular.ttf */; };
+		07EE76221CB3703A003B7E8F /* MaterialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07EE76211CB3703A003B7E8F /* MaterialView.swift */; };
+		07EE76251CB3716F003B7E8F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07EE76241CB3716F003B7E8F /* Constants.swift */; };
+		07EE76271CB4BC96003B7E8F /* MaterialButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07EE76261CB4BC96003B7E8F /* MaterialButton.swift */; };
+		07EE76291CB4C14E003B7E8F /* MaterialTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07EE76281CB4C14E003B7E8F /* MaterialTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +32,14 @@
 		07EE760A1CB36CD8003B7E8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		07EE760D1CB36CD8003B7E8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		07EE760F1CB36CD8003B7E8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07EE76191CB36D3C003B7E8F /* NotoSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Bold.ttf"; sourceTree = "<group>"; };
+		07EE761A1CB36D3C003B7E8F /* NotoSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		07EE761B1CB36D3C003B7E8F /* NotoSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Italic.ttf"; sourceTree = "<group>"; };
+		07EE761C1CB36D3C003B7E8F /* NotoSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Regular.ttf"; sourceTree = "<group>"; };
+		07EE76211CB3703A003B7E8F /* MaterialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialView.swift; sourceTree = "<group>"; };
+		07EE76241CB3716F003B7E8F /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		07EE76261CB4BC96003B7E8F /* MaterialButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialButton.swift; sourceTree = "<group>"; };
+		07EE76281CB4C14E003B7E8F /* MaterialTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +72,11 @@
 		07EE75FF1CB36CD8003B7E8F /* klimek-showcase */ = {
 			isa = PBXGroup;
 			children = (
+				07EE76231CB3715A003B7E8F /* Util */,
+				07EE76181CB36D13003B7E8F /* View */,
+				07EE76171CB36D05003B7E8F /* Resources */,
+				07EE76161CB36CFC003B7E8F /* Model */,
+				07EE76151CB36CF4003B7E8F /* controller */,
 				07EE76001CB36CD8003B7E8F /* AppDelegate.swift */,
 				07EE76021CB36CD8003B7E8F /* ViewController.swift */,
 				07EE76041CB36CD8003B7E8F /* Main.storyboard */,
@@ -65,6 +86,49 @@
 				07EE76071CB36CD8003B7E8F /* klimek_showcase.xcdatamodeld */,
 			);
 			path = "klimek-showcase";
+			sourceTree = "<group>";
+		};
+		07EE76151CB36CF4003B7E8F /* controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
+		07EE76161CB36CFC003B7E8F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		07EE76171CB36D05003B7E8F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				07EE76191CB36D3C003B7E8F /* NotoSans-Bold.ttf */,
+				07EE761A1CB36D3C003B7E8F /* NotoSans-BoldItalic.ttf */,
+				07EE761B1CB36D3C003B7E8F /* NotoSans-Italic.ttf */,
+				07EE761C1CB36D3C003B7E8F /* NotoSans-Regular.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		07EE76181CB36D13003B7E8F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				07EE76211CB3703A003B7E8F /* MaterialView.swift */,
+				07EE76261CB4BC96003B7E8F /* MaterialButton.swift */,
+				07EE76281CB4C14E003B7E8F /* MaterialTextField.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		07EE76231CB3715A003B7E8F /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				07EE76241CB3716F003B7E8F /* Constants.swift */,
+			);
+			name = Util;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,9 +190,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07EE761D1CB36D3C003B7E8F /* NotoSans-Bold.ttf in Resources */,
 				07EE760E1CB36CD8003B7E8F /* LaunchScreen.storyboard in Resources */,
+				07EE761E1CB36D3C003B7E8F /* NotoSans-BoldItalic.ttf in Resources */,
+				07EE761F1CB36D3C003B7E8F /* NotoSans-Italic.ttf in Resources */,
 				07EE760B1CB36CD8003B7E8F /* Assets.xcassets in Resources */,
 				07EE76061CB36CD8003B7E8F /* Main.storyboard in Resources */,
+				07EE76201CB36D3C003B7E8F /* NotoSans-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,9 +207,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07EE76251CB3716F003B7E8F /* Constants.swift in Sources */,
 				07EE76031CB36CD8003B7E8F /* ViewController.swift in Sources */,
+				07EE76271CB4BC96003B7E8F /* MaterialButton.swift in Sources */,
 				07EE76011CB36CD8003B7E8F /* AppDelegate.swift in Sources */,
 				07EE76091CB36CD8003B7E8F /* klimek_showcase.xcdatamodeld in Sources */,
+				07EE76221CB3703A003B7E8F /* MaterialView.swift in Sources */,
+				07EE76291CB4C14E003B7E8F /* MaterialTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,10 +328,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "klimek-showcase/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.klimek.klimek-showcase";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -267,10 +342,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "klimek-showcase/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.klimek.klimek-showcase";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -293,6 +371,7 @@
 				07EE76141CB36CD8003B7E8F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
